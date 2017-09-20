@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
   api.use('jquery', 'client');
-  api.use('fourseven:scss@3.2.0');
+  api.use('fourseven:scss');
   api.addFiles([
     'dist/js/bootstrap.min.js',
     'scss/bootstrap-flex.scss',
